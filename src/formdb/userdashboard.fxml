@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="formdb.UserdashboardController">
+   <children>
+      <VBox layoutX="197.0" layoutY="70.0" prefHeight="275.0" prefWidth="236.0">
+         <children>
+            <Button fx:id="usermanagedetails" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="46.0" prefWidth="216.0" style="-fx-background-color: #2971e5;" text="Manage Details" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></Button>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="OR" textAlignment="CENTER">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="100.0" right="25.0" top="10.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="usersearchform" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="46.0" prefWidth="226.0" style="-fx-background-color: #2971e5;" text="Search Form" textFill="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="218.0" style="-fx-background-color: #fff; -fx-border-color: #2971e5;" text="Back">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

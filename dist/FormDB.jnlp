@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FormDB.jnlp">
+  <information>
+    <title>FormDB</title>
+    <vendor>rushabh</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FormDB.jar" size="79057" download="eager" />
+    <jar href="lib/activation-1.1.jar" size="62983" download="eager" />
+    <jar href="lib/aopalliance-1.0.jar" size="4467" download="eager" />
+    <jar href="lib/apacheds-i18n-2.0.0-M15.jar" size="44925" download="eager" />
+    <jar href="lib/apacheds-kerberos-codec-2.0.0-M15.jar" size="691479" download="eager" />
+    <jar href="lib/api-asn1-api-1.0.0-M20.jar" size="16560" download="eager" />
+    <jar href="lib/api-util-1.0.0-M20.jar" size="79912" download="eager" />
+    <jar href="lib/asm-3.1.jar" size="43033" download="eager" />
+    <jar href="lib/avro-1.7.4.jar" size="303139" download="eager" />
+    <jar href="lib/commons-beanutils-1.7.0.jar" size="188671" download="eager" />
+    <jar href="lib/commons-beanutils-core-1.8.0.jar" size="206035" download="eager" />
+    <jar href="lib/commons-cli-1.2.jar" size="41123" download="eager" />
+    <jar href="lib/commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="lib/commons-collections-3.2.2.jar" size="588337" download="eager" />
+    <jar href="lib/commons-compress-1.4.1.jar" size="241367" download="eager" />
+    <jar href="lib/commons-configuration-1.6.jar" size="298829" download="eager" />
+    <jar href="lib/commons-daemon-1.0.13.jar" size="24239" download="eager" />
+    <jar href="lib/commons-digester-1.8.jar" size="143602" download="eager" />
+    <jar href="lib/commons-el-1.0.jar" size="112341" download="eager" />
+    <jar href="lib/commons-httpclient-3.1.jar" size="305001" download="eager" />
+    <jar href="lib/commons-io-2.4.jar" size="185140" download="eager" />
+    <jar href="lib/commons-lang-2.6.jar" size="284220" download="eager" />
+    <jar href="lib/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib/commons-math-2.2.jar" size="988514" download="eager" />
+    <jar href="lib/commons-math3-3.1.1.jar" size="1599627" download="eager" />
+    <jar href="lib/commons-net-3.1.jar" size="273370" download="eager" />
+    <jar href="lib/disruptor-3.3.0.jar" size="79576" download="eager" />
+    <jar href="lib/findbugs-annotations-1.3.9-1.jar" size="15322" download="eager" />
+    <jar href="lib/guava-12.0.1.jar" size="1795932" download="eager" />
+    <jar href="lib/guice-3.0.jar" size="710492" download="eager" />
+    <jar href="lib/guice-servlet-3.0.jar" size="65012" download="eager" />
+    <jar href="lib/hadoop-annotations-2.5.1.jar" size="17041" download="eager" />
+    <jar href="lib/hadoop-auth-2.5.1.jar" size="52449" download="eager" />
+    <jar href="lib/hadoop-client-2.5.1.jar" size="2557" download="eager" />
+    <jar href="lib/hadoop-common-2.5.1.jar" size="2962685" download="eager" />
+    <jar href="lib/hadoop-hdfs-2.5.1.jar" size="7095230" download="eager" />
+    <jar href="lib/hadoop-mapreduce-client-app-2.5.1.jar" size="491409" download="eager" />
+    <jar href="lib/hadoop-mapreduce-client-common-2.5.1.jar" size="662892" download="eager" />
+    <jar href="lib/hadoop-mapreduce-client-core-2.5.1.jar" size="1498368" download="eager" />
+    <jar href="lib/hadoop-mapreduce-client-jobclient-2.5.1.jar" size="35733" download="eager" />
+    <jar href="lib/hadoop-mapreduce-client-shuffle-2.5.1.jar" size="43642" download="eager" />
+    <jar href="lib/hadoop-yarn-api-2.5.1.jar" size="1649852" download="eager" />
+    <jar href="lib/hadoop-yarn-client-2.5.1.jar" size="117982" download="eager" />
+    <jar href="lib/hadoop-yarn-common-2.5.1.jar" size="1416427" download="eager" />
+    <jar href="lib/hadoop-yarn-server-common-2.5.1.jar" size="242381" download="eager" />
+    <jar href="lib/hbase-annotations-1.2.4-tests.jar" size="14228" download="eager" />
+    <jar href="lib/hbase-annotations-1.2.4.jar" size="20865" download="eager" />
+    <jar href="lib/hbase-client-1.2.4.jar" size="1300582" download="eager" />
+    <jar href="lib/hbase-common-1.2.4-tests.jar" size="228126" download="eager" />
+    <jar href="lib/hbase-common-1.2.4.jar" size="579277" download="eager" />
+    <jar href="lib/hbase-examples-1.2.4.jar" size="131005" download="eager" />
+    <jar href="lib/hbase-external-blockcache-1.2.4.jar" size="18946" download="eager" />
+    <jar href="lib/hbase-hadoop-compat-1.2.4.jar" size="36994" download="eager" />
+    <jar href="lib/hbase-hadoop2-compat-1.2.4.jar" size="100707" download="eager" />
+    <jar href="lib/hbase-it-1.2.4-tests.jar" size="2829009" download="eager" />
+    <jar href="lib/hbase-it-1.2.4.jar" size="12608" download="eager" />
+    <jar href="lib/hbase-prefix-tree-1.2.4.jar" size="102031" download="eager" />
+    <jar href="lib/hbase-procedure-1.2.4.jar" size="122543" download="eager" />
+    <jar href="lib/hbase-protocol-1.2.4.jar" size="4365897" download="eager" />
+    <jar href="lib/hbase-resource-bundle-1.2.4.jar" size="54302" download="eager" />
+    <jar href="lib/hbase-rest-1.2.4.jar" size="430868" download="eager" />
+    <jar href="lib/hbase-server-1.2.4-tests.jar" size="7552653" download="eager" />
+    <jar href="lib/hbase-server-1.2.4.jar" size="4156873" download="eager" />
+    <jar href="lib/hbase-shell-1.2.4.jar" size="12464" download="eager" />
+    <jar href="lib/hbase-thrift-1.2.4.jar" size="2760142" download="eager" />
+    <jar href="lib/htrace-core-3.1.0-incubating.jar" size="1475955" download="eager" />
+    <jar href="lib/httpclient-4.2.5.jar" size="433368" download="eager" />
+    <jar href="lib/httpcore-4.4.1.jar" size="322234" download="eager" />
+    <jar href="lib/jackson-core-asl-1.9.13.jar" size="232248" download="eager" />
+    <jar href="lib/jackson-jaxrs-1.9.13.jar" size="18336" download="eager" />
+    <jar href="lib/jackson-mapper-asl-1.9.13.jar" size="780664" download="eager" />
+    <jar href="lib/jackson-xc-1.9.13.jar" size="27084" download="eager" />
+    <jar href="lib/jamon-runtime-2.4.1.jar" size="24543" download="eager" />
+    <jar href="lib/jasper-compiler-5.5.23.jar" size="408133" download="eager" />
+    <jar href="lib/jasper-runtime-5.5.23.jar" size="76844" download="eager" />
+    <jar href="lib/java-xmlbuilder-0.4.jar" size="18490" download="eager" />
+    <jar href="lib/javax.inject-1.jar" size="2497" download="eager" />
+    <jar href="lib/jaxb-api-2.2.2.jar" size="105134" download="eager" />
+    <jar href="lib/jaxb-impl-2.2.3-1.jar" size="890168" download="eager" />
+    <jar href="lib/jcodings-1.0.8.jar" size="1291164" download="eager" />
+    <jar href="lib/jersey-client-1.9.jar" size="130458" download="eager" />
+    <jar href="lib/jersey-core-1.9.jar" size="458739" download="eager" />
+    <jar href="lib/jersey-guice-1.9.jar" size="14786" download="eager" />
+    <jar href="lib/jersey-json-1.9.jar" size="147952" download="eager" />
+    <jar href="lib/jersey-server-1.9.jar" size="713089" download="eager" />
+    <jar href="lib/jets3t-0.9.0.jar" size="539735" download="eager" />
+    <jar href="lib/jettison-1.3.3.jar" size="79832" download="eager" />
+    <jar href="lib/jetty-6.1.26.jar" size="539912" download="eager" />
+    <jar href="lib/jetty-sslengine-6.1.26.jar" size="18891" download="eager" />
+    <jar href="lib/jetty-util-6.1.26.jar" size="177131" download="eager" />
+    <jar href="lib/joni-2.1.2.jar" size="187292" download="eager" />
+    <jar href="lib/jruby-complete-1.6.8.jar" size="13832273" download="eager" />
+    <jar href="lib/jsch-0.1.42.jar" size="185746" download="eager" />
+    <jar href="lib/jsp-2.1-6.1.14.jar" size="1024680" download="eager" />
+    <jar href="lib/jsp-api-2.1-6.1.14.jar" size="134910" download="eager" />
+    <jar href="lib/junit-4.12.jar" size="314932" download="eager" />
+    <jar href="lib/leveldbjni-all-1.8.jar" size="1045744" download="eager" />
+    <jar href="lib/libthrift-0.9.3.jar" size="234201" download="eager" />
+    <jar href="lib/log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="lib/metrics-core-2.2.0.jar" size="82123" download="eager" />
+    <jar href="lib/netty-all-4.0.23.Final.jar" size="1779991" download="eager" />
+    <jar href="lib/paranamer-2.3.jar" size="29555" download="eager" />
+    <jar href="lib/protobuf-java-2.5.0.jar" size="533455" download="eager" />
+    <jar href="lib/servlet-api-2.5-6.1.14.jar" size="132368" download="eager" />
+    <jar href="lib/servlet-api-2.5.jar" size="105112" download="eager" />
+    <jar href="lib/slf4j-api-1.7.7.jar" size="29257" download="eager" />
+    <jar href="lib/slf4j-log4j12-1.7.5.jar" size="8869" download="eager" />
+    <jar href="lib/snappy-java-1.0.4.1.jar" size="995968" download="eager" />
+    <jar href="lib/spymemcached-2.11.6.jar" size="466952" download="eager" />
+    <jar href="lib/xmlenc-0.52.jar" size="15010" download="eager" />
+    <jar href="lib/xz-1.0.jar" size="94672" download="eager" />
+    <jar href="lib/zookeeper-3.4.6.jar" size="792964" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FormDB" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="formdb.FormDB"  name="FormDB" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="formdb.EducationaldetailsController">
+    <children>
+      <Label alignment="CENTER" layoutX="50.0" prefHeight="62.0" prefWidth="501.0" text="EDUCATIONAL DETAILS" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ScrollPane hbarPolicy="NEVER" layoutY="60.0" prefHeight="540.0" prefWidth="613.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="611.0">
+               <children>
+                  <VBox layoutX="74.0" prefHeight="459.0" prefWidth="468.0">
+                     <children>
+                        <Label prefHeight="21.0" prefWidth="490.0" text="School Details :">
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="edschoolname" layoutX="10.0" layoutY="71.0" promptText="School Name">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="8.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <HBox prefHeight="63.0" prefWidth="452.0" spacing="60.0">
+                           <children>
+                              <TextField fx:id="edschoolyear" maxWidth="-Infinity" prefHeight="41.0" prefWidth="202.0" promptText="Passing Year">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </TextField>
+                              <TextField fx:id="edschoolpercent" maxWidth="-Infinity" prefWidth="192.0" promptText="Passing Percentage">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </TextField>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                        </HBox>
+                        <Label prefHeight="21.0" prefWidth="490.0" text="College Details :">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="edcollegename" promptText="College Name">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <HBox prefHeight="62.0" prefWidth="452.0" spacing="60.0">
+                           <children>
+                              <TextField fx:id="edcollegeyear" maxWidth="-Infinity" prefHeight="41.0" prefWidth="202.0" promptText="Passing Year">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="edcollegepercent" maxWidth="-Infinity" prefWidth="192.0" promptText="Passing Percentage">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </TextField>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Label layoutX="18.0" layoutY="221.0" prefHeight="21.0" prefWidth="490.0" text="Professional Course Details :">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="edinstitutename" layoutX="18.0" layoutY="287.0" promptText="Institute Name">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="edcoursename" layoutX="18.0" layoutY="344.0" promptText="Course Name">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <HBox layoutX="18.0" layoutY="401.0" prefHeight="62.0" prefWidth="452.0" spacing="60.0">
+                           <children>
+                              <TextField fx:id="edinstyear" maxWidth="-Infinity" prefHeight="41.0" prefWidth="202.0" promptText="Passing Year">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </TextField>
+                              <TextField fx:id="edinstpercent" maxWidth="-Infinity" prefWidth="192.0" promptText="Passing Percentage">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </TextField>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Label prefHeight="21.0" prefWidth="490.0" text="Other Details :">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="edprofession" layoutX="18.0" layoutY="544.0" promptText="Current Profession">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Button fx:id="edsubmit" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="24.0" prefWidth="613.0" style="-fx-background-color: #2091e7;" text="Submit" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button fx:id="back" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: #fff; -fx-border-color: #2971e5;" text="Back">
+                           <VBox.margin>
+                              <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" left="208.0" right="208.0" top="10.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>

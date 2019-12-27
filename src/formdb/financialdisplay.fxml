@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="formdb.FinancialdisplayController">
+   <children>
+      <VBox alignment="CENTER" layoutX="9.0" layoutY="4.0" prefHeight="380.0" prefWidth="582.0" spacing="10.0" AnchorPane.topAnchor="4.0">
+         <children>
+            <TextField fx:id="fnbankname" editable="false" prefHeight="37.0" prefWidth="413.0" promptText="Bank Name">
+               <VBox.margin>
+                  <Insets left="120.0" right="120.0" top="40.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></TextField>
+            <TextField fx:id="fnifsc" editable="false" promptText="IFSC Code">
+               <VBox.margin>
+                  <Insets left="120.0" right="120.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="fnaccountno" editable="false" promptText="Account number">
+               <VBox.margin>
+                  <Insets left="120.0" right="120.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="fnincome" editable="false" promptText="Average Annual Family Income ">
+               <VBox.margin>
+                  <Insets left="120.0" right="120.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <Button fx:id="viewdetails" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="344.0" style="-fx-background-color: #2191E5;" text="View Details" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Button>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="342.0" style="-fx-background-color: #FFF; -fx-border-color: #2971E5;" text="Back">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </VBox>
+      <Label alignment="CENTER" layoutY="6.0" prefHeight="73.0" prefWidth="600.0" text="FINANCIAL DETAILS" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="20.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="formdb.CreateformController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="13.0" prefHeight="72.0" prefWidth="577.0" text="FORM CREATION">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <VBox layoutX="14.0" layoutY="79.0" prefHeight="308.0" prefWidth="567.0">
+         <children>
+            <TextField fx:id="formname" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="444.0" promptText="Form Title">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <Label alignment="CENTER" prefHeight="39.0" prefWidth="567.0" text="Tell Us The Details You Need:">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="personal" mnemonicParsing="false" onAction="#handleButtonAction" text="Personal Details">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="educational" mnemonicParsing="false" onAction="#handleButtonAction" text="Educational Details">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="bank" mnemonicParsing="false" onAction="#handleButtonAction" text="Bank Details">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="medical" mnemonicParsing="false" onAction="#handleButtonAction" text="Medical Details">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </CheckBox>
+            <CheckBox fx:id="government" mnemonicParsing="false" onAction="#handleButtonAction" text="Government ID">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </CheckBox>
+            <Button fx:id="submit" alignment="CENTER" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="91.0" prefWidth="559.0" style="-fx-background-color: #2971e5;" text="Submit" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="180.0" right="180.0" top="20.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="back" alignment="CENTER" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="209.0" style="-fx-background-color: #fff; -fx-border-color: #2971e5;" text="Back">
+               <VBox.margin>
+                  <Insets left="180.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

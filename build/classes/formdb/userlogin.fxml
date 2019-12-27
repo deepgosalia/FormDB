@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="418.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="formdb.UserloginController">
+   <children>
+      <VBox layoutX="153.0" layoutY="90.0" prefHeight="285.0" prefWidth="300.0">
+         <children>
+            <TextField fx:id="useremail" promptText="Enter Email Id....">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="userpassword" layoutX="10.0" layoutY="10.0" promptText="Password">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <Label fx:id="usererrormessage">
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="userlogin" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="304.0" style="-fx-background-color: #2971e5;" text="Login" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button fx:id="userregister" layoutX="20.0" layoutY="130.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="304.0" style="-fx-background-color: #2971e5;" text="New User? Register Now!" textFill="WHITE">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="280.0" style="-fx-background-color: #fff; -fx-border-color: #2971e5;" text="Back">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

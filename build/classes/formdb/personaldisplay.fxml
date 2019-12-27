@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="formdb.PersonaldisplayController">
+   <children>
+      <Text layoutX="26.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Details" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <VBox layoutX="14.0" layoutY="41.0" prefHeight="358.0" prefWidth="600.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="-14.0" AnchorPane.topAnchor="41.0">
+         <children>
+            <TextField fx:id="prname" editable="false" promptText="Name">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="50.0" top="40.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="prdob" promptText="'Date of birth">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="prcontactno" promptText="Contact No">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="praddress" promptText="Address">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="prcaste" promptText="Caste">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="prgender" editable="false" promptText="Gender">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="prmaritalstatus" editable="false" layoutX="20.0" layoutY="325.0" promptText="Marital Status">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="50.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Button fx:id="viewdetails" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="542.0" style="-fx-background-color: #2971e5;" text="View Details" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin></Button>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="543.0" style="-fx-background-color: #fff; -fx-border-color: #2971e5;" text="Back">
+               <VBox.margin>
+                  <Insets left="10.0" top="15.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
